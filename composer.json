@@ -1,0 +1,41 @@
+{
+    "name": "abdelilah-ezzouini/db-macros",
+    "description": "A Laravel package that extends the DB facade with powerful macros to enhance database query building and manipulation in your Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdelilah Ezzouini",
+            "email": "abdelilah.ezzouini@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AbdelilahEzzouini\\DbMacros\\": "src/"
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AbdelilahEzzouini\\DbMacros\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbdelilahEzzouini\\DbMacros\\DbMacrosServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
