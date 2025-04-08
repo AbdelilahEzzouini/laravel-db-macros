@@ -21,7 +21,7 @@ This macro bridges the gap between raw SQL flexibility and Laravel's query build
 You can install the package via composer:
 
 ```bash
-composer require AbdelilahEzzouini/db-macros:dev-main
+composer require abdelilah-ezzouini/db-macros:dev-main
 ```
 
 ## Configuration
