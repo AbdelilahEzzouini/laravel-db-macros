@@ -79,9 +79,4 @@ To run the tests for this package, you can use PHPUnit:
 vendor/bin/phpunit
 ```
 
-
-## License
-
-The MIT License (MIT)
-
 Copyright (c) Abdelilah Ezzouini
